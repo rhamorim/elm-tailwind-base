@@ -1,23 +1,32 @@
 {
-  "name": "jgames-design",
+  "name": "elm-tailwind-base",
   "version": "1.0.0",
-  "description": "Theme design for jgames",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "Base project for projects using Tailwind CSS and/or Elm 0.19.",
+  "main": "gulpfile.js",
   "dependencies": {
-    "autoprefixer": "^9.6.1",
+    "autoprefixer": "^9.7.3",
     "browser-sync": "^2.26.7",
-    "elm": "^0.19.0-no-deps",
+    "elm": "^0.19.1-3",
     "gulp": "^4.0.2",
     "gulp-elm": "^0.8.2",
     "gulp-postcss": "^8.0.0",
     "gulp-purgecss": "^1.2.0",
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2",
-    "tailwindcss": "^1.0.5"
-  }
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhamorim/elm-tailwind-base.git"
+  },
+  "author": "Roberto Amorim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhamorim/elm-tailwind-base/issues"
+  },
+  "homepage": "https://github.com/rhamorim/elm-tailwind-base#readme"
 }
